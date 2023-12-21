@@ -68,7 +68,25 @@
 // }
 
 // int main(){
-//     printf("%ld", factorial(4));
+//     printf("%ld", factorial(30));
+// }
+// ===================================================================================
+// long long int factorial(int number)
+// {
+//     long long int result = 1;
+
+//     for (int i = 1; i <= number; ++i)
+//     {
+//         result *= i;
+//     }
+
+//     return result;
+// }
+
+// int main()
+// {
+//     printf("%lld", factorial(30));
+//     getch();
 // }
 // // ===================================================================================
 // int MyGlobal = 10; // global variable
@@ -94,7 +112,7 @@
 
 // int main()
 // {
-//     if (IsPrime(13) == true)
+//     if (IsPrime(97) == true)
 //     {
 //         printf("true");
 //     }
