@@ -81,14 +81,17 @@ strcat() - concatenates two strings
 // int main()
 // {
 //     char password[] = "Rezasadri";
-//     printf("Length: %d", strlen(password));
+//     printf("Length: %d\n", strlen(password));
+//     printf("length: %d", sizeof(password)/sizeof(password[0]));
 // }
 // ==============================================================
 // int main()
 // {
 //     int myArr[] = {1, 2, 3, 4, 5};
 //     printf("length: %d\n", sizeof(myArr)/sizeof(myArr[0]));
+
 //     char password[] = "1234567891";
+//     printf("Length: %d\n", strlen(password));
 //     printf("length: %d", sizeof(password)/sizeof(password[0]));
 // }
 // ==============================================================
